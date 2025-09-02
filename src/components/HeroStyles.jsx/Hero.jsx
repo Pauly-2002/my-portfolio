@@ -18,7 +18,7 @@ const Hero = () => {
   const GithubIcon = theme === "light" ? GithubLight : GithubDark;
   const TwitterIcon = theme === "light" ? TwitterLight : TwitterDark;
   return (
-    <section id="hero" className="{styles.container} mt-20">
+    <section id="hero" className="{styles.container} mt-20 px-5">
       <div className="{styles.colorModeContainer} flex items-start justify-center">
         <img
           className="{styles.hero} border rounded-full w-64"
