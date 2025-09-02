@@ -34,7 +34,7 @@ const Hero = () => {
       </div>
       <div className="flex flex-col items-center {styles.info} justify-center w-full gap-3">
         <h1>Adewuyi Oluwasegun</h1>
-        <h2 className="text-center">
+        <h2 className="text-center ">
           Full stack development & Software Architecture
         </h2>
         <span className="flex">
@@ -60,7 +60,7 @@ const Hero = () => {
             <img src={TwitterIcon} alt="Twitter icon" />
           </a>
         </span>
-        <p>
+        <p className="text-center">
           Building Web Apps & Software with React.js | Node.js <br></br>|
           Express.js | Mongodb | Postgresql Developer
         </p>

@@ -14,14 +14,13 @@ const Skills = () => {
         <SkillList src={checkMarkIcon} p="TYPESCRIPT" />
         <SkillList src={checkMarkIcon} p="NODE.JS" />
       </div>
-      <hr />
+      <hr className="w-16 my-20" />
       <div className="flex justify-evenly self-center flex-wrap gap-8 w-[26ch]">
         <SkillList src={checkMarkIcon} p="REACT" />
         <SkillList src={checkMarkIcon} p="EXPRESS.JS" />
         <SkillList src={checkMarkIcon} p="TAILWIND.CSS" />
         <SkillList src={checkMarkIcon} p="GIT" />
       </div>
-      <hr />
     </div>
   );
 };
