@@ -14,7 +14,6 @@ const Skills = () => {
         <SkillList src={checkMarkIcon} p="TYPESCRIPT" />
         <SkillList src={checkMarkIcon} p="NODE.JS" />
       </div>
-      <hr className=" text-center w-16 my-20" />
       <div className="flex justify-evenly self-center flex-wrap gap-8 w-[26ch]">
         <SkillList src={checkMarkIcon} p="REACT" />
         <SkillList src={checkMarkIcon} p="EXPRESS.JS" />
