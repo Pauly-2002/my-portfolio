@@ -1,0 +1,82 @@
+:root {
+  --background-color: #ffff;
+  --btn-color: #222;
+  --btn-text-color: #ffff;
+  --project-card-bg: #ffffff00;
+  --text-color: #222;
+  --form-text-color: #555;
+  --footer-text-color: #888;
+}
+
+[data-theme="dark"] {
+  --background-color: #222;
+  --btn-color: #f59e0c;
+  --btn-text-color: #fff;
+  --project-card-bg: #fff;
+  --text-color: #fff;
+  --form-text-color: #fff;
+  --footer-text-color: #bbb;
+}
+
+body {
+  background-color: var(--background-color);
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 60px;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+h1,
+h2,
+h3,
+p {
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+}
+
+h2,
+h3,
+p {
+  font-family: "lato";
+}
+
+h1,
+h2 {
+  text-transform: uppercase;
+}
+
+h2,
+h3 {
+  font-size: 20px;
+}
+
+h1 {
+  font-family: "Raleway";
+  font-size: 32px;
+}
+
+p{
+  font-size: 16px;
+  font-weight: 300px;
+}
+
+#hero-btn {
+  background-color: var(--btn-color);
+  margin-top: 15px;
+  border-radius: 10px;
+  color: var(--btn-text-color);
+}
+
+.sectionTitle{
+  margin-bottom: 30px;
+}
+
+.hover{
+  cursor: pointer;
+}
