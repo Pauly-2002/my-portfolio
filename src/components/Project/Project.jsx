@@ -4,6 +4,7 @@ import ProjectCard from "../ProjectCard";
 import Nexform from "../../assets/Nexform.png";
 import Social from "../../assets/Social Media.png";
 import Hero from "../../assets/HeroSection.png";
+import RealEstate from "../../assets/Real estate website.png"
 
 const Project = () => {
   return (
@@ -11,11 +12,18 @@ const Project = () => {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectContainer}>
         <ProjectCard
+          src={RealEstate}
+          alt="Real Estate Website"
+          href="https://real-estate-website1-1eyo.vercel.app/"
+          h3="Real Estate Website"
+          p="Built using React.js & TailwindCSS"
+        />
+        <ProjectCard
           src={Nexform}
           alt="Nexform Marketing Agency"
           href="https://nexform-agency.vercel.app"
           h3="Nexform Agency Website"
-          p="I build using html, css & javascript"
+          p="Built using html, css & javascript"
         />
         <ProjectCard
           src={Social}
