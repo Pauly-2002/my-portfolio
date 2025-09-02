@@ -18,7 +18,7 @@ const Hero = () => {
   const GithubIcon = theme === "light" ? GithubLight : GithubDark;
   const TwitterIcon = theme === "light" ? TwitterLight : TwitterDark;
   return (
-    <section id="hero" className="{styles.container} mt-20 px-5">
+    <section id="hero" className="{styles.container} mt-20">
       <div className="{styles.colorModeContainer} flex items-start justify-center">
         <img
           className="{styles.hero} border rounded-full w-64"
@@ -33,7 +33,7 @@ const Hero = () => {
         />
       </div>
       <div className="flex flex-col items-center {styles.info} justify-center w-full gap-3">
-        <h1>Adewuyi Oluwasegun</h1>
+        <h1>Adewuyi <br/> Oluwasegun</h1>
         <h2 className="text-center ">
           Full stack development & Software Architecture
         </h2>
