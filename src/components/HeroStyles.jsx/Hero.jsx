@@ -64,7 +64,7 @@ const Hero = () => {
           Building Web Apps & Software with React.js | Node.js <br></br>|
           Express.js | Mongodb | Postgresql Developer
         </p>
-        <a href="https://wa.me/2348012345678?text=Hello%20I%27m%20interested%20in%20your%20services" target="_blank" download id="hero-btn" className="px-5 py-2">
+        <a href="https://wa.me/2349036062620?text=Hello%20I%27m%20interested%20in%20your%20services" target="_blank" download id="hero-btn" className="px-5 py-2">
           <button className="hover">Contact Me</button>
         </a>
       </div>
