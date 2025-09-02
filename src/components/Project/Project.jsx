@@ -1,5 +1,4 @@
 import React from "react";
-import Viber from "../../assets/viberr.png";
 import styles from "./ProjectsStyles.module.css";
 import ProjectCard from "../ProjectCard";
 import Nexform from "../../assets/Nexform.png";
